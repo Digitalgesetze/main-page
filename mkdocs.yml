@@ -1,0 +1,23 @@
+site_name: digitalgesetze.de
+site_url: https://digitalgesetze.de
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - privacy
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: Digitalgesetze/main-page
+      branch: main
+repo_url: https://github.com/Digitalgesetze/main-page
+repo_name: Digitalgesetze/main-page
